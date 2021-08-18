@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview Select</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: #C6FFDD;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        .title {
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="title">Input text</div>
+        <input type="text" name="example" list="exampleList">
+        <datalist id="exampleList">
+            <option value="Select option A">
+            <option value="Select option B">
+            <option value="Select option C">
+            <option value="Select option D">
+        </datalist>
+
+    </div>
+
+</body>
+
+</html>
